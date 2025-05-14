@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haircut Inspiration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>✨ Haircut Inspiration ✨</h1>
+    <button id="magicBtn">Click Me!</button>
+  </header>
+
+  <section class="tabs">
+    <div class="tab-buttons">
+      <button class="tab-btn" data-tab="short">Short</button>
+      <button class="tab-btn" data-tab="medium">Medium</button>
+      <button class="tab-btn" data-tab="long">Long</button>
+    </div>
+
+    <div class="tab-content" id="short">
+      <h2>Short Haircuts</h2>
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/1819483/pexels-photo-1819483.jpeg" alt="Short 3">
+      </div>
+    </div>
+
+    <div class="tab-content hidden" id="medium">
+      <h2>Medium Haircuts</h2>
+      <div class="gallery">
+
+        <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Medium 3">
+      </div>
+    </div>
+
+    <div class="tab-content hidden" id="long">
+      <h2>Long Haircuts</h2>
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/3993445/pexels-photo-3993445.jpeg" alt="Long 1">
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <h2>Subscribe for More Looks</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="password" id="password" placeholder="Password (min 8 characters)" required>
+      <button type="submit">Sign Up</button>
+      <p id="feedback"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
